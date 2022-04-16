@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/index.css">
+    <link rel="stylesheet" href="estilos/registro.css">
+    <title>18300722</title>
+</head>
+
+<body>
+
+    <div class="contenedor-form">
+        <h1>Registrarse</h1>
+        <form action="./templates/registro.php" method="post">
+            <section>
+                <img class="imagenUsr" src="./img/add_user_male_48px.png">
+                
+                <p>
+                    <label for="txtUsr">Correo</label> <br>
+                    <input type="text" id="txtCorreo" name="txtCorreo">
+                </p>
+        
+                <p>
+                    <label for="txtPwd">Contraseña</label> <br>
+                    <input type="password" id="txtPwd" name="txtPwd">
+                </p>
+        
+                <input class="btn" type="submit" value="Registrarse" name="btnRegistrar">
+                
+                <label id = "labelRegistro" for="aRegistro">¿Ya tienes cuenta? </label>
+                <a href="./index.html" id="aRegistro">Inicia sesión</a>
+            </section>
+        </form>
+    </div>
+
+</body>
+
+</html>
